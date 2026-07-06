@@ -666,7 +666,7 @@ function showPoem() {
     poem.id = "lovePoem";
 
     poem.innerHTML = `
-        <h2>🤍 Para Sophia 🤍</h2>
+        <h2>🤍 p/ Sophia Bruzarosco 🤍</h2>
 
         <p>
         Sophia,<br><br>
@@ -685,6 +685,7 @@ function showPoem() {
 
         🤍
         algumas pessoas deixam o mundo mais bonito apenas por estarem nele. vc é uma delas.
+        brasil perdeu a copa mas eu ganhei meu mundo quando vc apareceu!!!
         </p>
 
         <button onclick="document.getElementById('lovePoem').remove()">
