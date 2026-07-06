@@ -680,7 +680,7 @@ function showPoem() {
         nunca deixe de ser essa pessoa tão gentil,<br>
         tão doce e tão especial.<br><br>
 
-        espero q, sempre que olhar p essa rosa,<br>
+        espero q sempre que olhar p essa rosa,<br>
         lembre-se de que existe alguém que admira mt quem vc é.<br><br>
 
         🤍
