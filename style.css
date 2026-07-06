@@ -26,7 +26,167 @@ body{
     display:block;
     z-index:1;
 }
+@media (max-width:768px){
 
+    .intro-content{
+
+        padding:24px;
+
+    }
+
+    .intro-content h1{
+
+        font-size:2rem;
+        line-height:1.2;
+
+    }
+
+    .intro-content p{
+
+        font-size:.95rem;
+
+    }
+
+    #startButton{
+
+        width:100%;
+
+        padding:16px;
+
+        font-size:1rem;
+
+    }
+
+    .top-title{
+
+        top:22px;
+
+    }
+
+    .top-title h2{
+
+        font-size:1.7rem;
+
+    }
+
+    .top-title span{
+
+        font-size:.9rem;
+
+    }
+
+    #poemBox{
+
+        bottom:90px;
+
+    }
+
+    #poemText{
+
+        width:92%;
+
+        font-size:1.25rem;
+
+    }
+
+    .hint{
+
+        font-size:.75rem;
+
+        padding:0 15px;
+
+    }
+
+    .letter{
+
+        padding:24px;
+
+        border-radius:18px;
+
+    }
+
+    .letter h2{
+
+        font-size:1.7rem;
+
+    }
+
+    .letter p{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+    }
+
+    #closeLetter{
+
+        top:12px;
+        right:12px;
+
+    }
+
+    #lovePoem{
+
+        width:94vw;
+
+        padding:24px;
+
+        border-radius:18px;
+
+    }
+
+    #lovePoem h2{
+
+        font-size:1.8rem;
+
+    }
+
+    #lovePoem p{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+    }
+
+    #lovePoem button{
+
+        width:100%;
+
+        padding:15px;
+
+    }
+
+    #fpsHud{
+
+        display:none;
+
+    }
+
+    #ending{
+
+        padding:25px;
+
+    }
+
+    #ending h1{
+
+        font-size:2.2rem;
+
+        text-align:center;
+
+    }
+
+    #ending p{
+
+        font-size:.95rem;
+
+        line-height:1.8;
+
+    }
+
+}
 #loading{
     position:fixed;
     inset:0;
@@ -257,21 +417,21 @@ body{
 #letterModal{
 
     position:fixed;
-
     inset:0;
 
     display:flex;
-
     justify-content:center;
-
     align-items:center;
+
+    padding:20px;
+
+    overflow-y:auto;
 
     background:rgba(0,0,0,.75);
 
     backdrop-filter:blur(8px);
 
     opacity:0;
-
     pointer-events:none;
 
     transition:.5s;
@@ -290,19 +450,21 @@ body{
 
 .letter{
 
-    width:min(650px,90%);
+    width:min(680px,100%);
+
+    max-height:90vh;
+
+    overflow-y:auto;
+
+    padding:40px;
+
+    border-radius:22px;
 
     background:white;
 
     color:#222;
 
-    border-radius:18px;
-
-    padding:45px;
-
-    position:relative;
-
-    animation:pop .4s;
+    box-shadow:0 20px 80px rgba(0,0,0,.35);
 
 }
 
@@ -346,19 +508,25 @@ body{
 
 #closeLetter{
 
-    position:absolute;
+    width:42px;
+    height:42px;
 
-    right:18px;
+    border-radius:50%;
 
-    top:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 
-    border:none;
+    font-size:1.5rem;
 
-    background:none;
+    background:#f2f2f2;
 
-    font-size:2rem;
+    transition:.25s;
 
-    cursor:pointer;
+}
+#closeLetter:hover{
+
+    background:#ddd;
 
 }
 
@@ -511,7 +679,16 @@ body{
 
     transform:translate(-50%,-50%);
 
-    width:min(600px,90%);
+
+    width:min(650px,92vw);
+
+    max-height:90vh;
+
+    overflow-y:auto;
+
+    padding:40px;
+
+
 
     padding:40px;
 
